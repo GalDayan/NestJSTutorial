@@ -2,7 +2,7 @@ export interface Task {
   id: string;
   title: string;
   description: string;
-  status: StatusType;
+  status: TaskStatus;
 }
 
-export type StatusType = 'open' | 'closed' | 'in_progress';
+export type TaskStatus = 'open' | 'closed' | 'in_progress';
